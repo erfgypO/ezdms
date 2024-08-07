@@ -1,7 +1,7 @@
 "use client";
 import { TreeNode } from "@/lib/primitives";
 
-import { AlertCircle, File, Folder } from "lucide-react";
+import { File, Folder } from "lucide-react";
 import { PropsWithChildren } from "react";
 
 interface FileSystemInfo {

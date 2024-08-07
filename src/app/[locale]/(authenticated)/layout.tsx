@@ -1,7 +1,6 @@
 import { isAuthenticated } from "@/lib/server/auth";
 import { redirect } from "next/navigation";
 import AuthenticatedNavbar from "@/components/layout/authenticated-navbar";
-import { FileTree } from "@/components/file-tree";
 
 export default async function Layout({
   children,
