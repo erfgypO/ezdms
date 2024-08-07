@@ -1,3 +1,10 @@
 {
-  "Ping": "Pong"
+  "Components": {
+    "NavBar": {
+      "UserMenu": {
+        "SignOut": "Sign out"
+      }
+    }
+  },
+  "SignInButton": "Sign in"
 }
