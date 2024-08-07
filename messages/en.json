@@ -2,9 +2,13 @@
   "Components": {
     "NavBar": {
       "UserMenu": {
+        "Settings": "Settings",
         "SignOut": "Sign out"
       }
+    },
+    "SettingsNavigation": {
+      "Account": "Account",
+      "StorageDevices": "Storage Devices"
     }
-  },
-  "SignInButton": "Sign in"
+  }
 }

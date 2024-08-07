@@ -28,7 +28,12 @@ export async function UserMenu() {
         <DropdownMenuLabel>
             { user.given_name } { user.family_name}
     </DropdownMenuLabel>
-    <DropdownMenuItem>
+        <DropdownMenuItem>
+            <Link href="/settings">
+                { t("UserMenu.Settings") }
+            </Link>
+        </DropdownMenuItem>
+        <DropdownMenuItem>
     <Link href="/api/auth/logout">
         { t("UserMenu.SignOut") }
     </Link>
